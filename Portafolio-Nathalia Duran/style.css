@@ -1,0 +1,267 @@
+
+
+
+
+body{
+    background: linear-gradient(#87CEFA, #E0FFFF);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+footer{
+   
+    background-color: lightgray;
+    opacity: 0,5;
+    
+
+}
+
+.parte{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.fotoyo{
+    display: flex;
+justify-content: center;
+padding: 20px;
+}
+
+.fotopersonal{
+    width: 130px;
+    border-radius: 50%;
+    aspect-ratio: 1; 
+    object-fit: cover;
+   align-items: center;
+}
+.front-endimg{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.front-end-img{
+    width: 400px;
+    height: 150px;
+}
+.prociono-regular 
+  {
+    font-family: "Prociono", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+
+.pt-sans-regular  
+  {
+    font-family: "PT Sans", sans-serif;
+    font-weight: 450;
+    font-style: normal;
+  }
+
+
+
+h1{ font-family: "Prociono";
+    font-size: 70px;
+    font-weight: bold;
+
+}
+
+h2{
+    text-align: center;
+    font-family: "Prociono";
+    font-size: 50px;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    font-family: "PT Sans";
+    font-size: 30px;
+}
+
+a {
+    background-color: none;
+    transition: background-color 0.5s;
+  }
+  
+  a:hover {
+    background-color: grey;
+  }
+  
+
+
+
+.boton{padding: 30px;}
+.botonred
+{
+    height: 50px;
+    width: 50px;
+}
+
+.footer{
+    background-color: #87CEFA;
+    opacity: 0,5;
+}
+
+.grid_container{
+    display: grid;
+    grid-row-gap: 20px ;
+    grid-template-columns: auto auto;
+    grid-row: auto auto auto auto;
+    grid-template-areas: "form1 form2"
+                         "form3 form4"
+                         "form5"
+                         "form6"
+                         "form7";
+
+                        
+}
+
+/* MEDIA QUERIES*/
+@media (min-width: 800px) and (max-width: 1200px){
+    .grid_container{
+        display: grid;
+        grid-row-gap: 20px ;
+        grid-template-columns: auto auto;
+        grid-row: auto auto auto auto;
+        grid-template-areas: "form1 form2"
+                             "form3 form4"
+                             "form5"
+                             "form6"
+                             "form7";
+    
+                            
+    }
+    h1{ font-family: "Prociono";
+        font-size: 70px;
+        font-weight: bold;
+    
+    }
+    
+    h2{
+        text-align: center;
+        font-family: "Prociono";
+        font-size: 50px;
+        font-weight: bold;
+    }
+    
+    p{
+        text-align: center;
+        font-family: "PT Sans";
+        font-size: 30px;
+    }
+
+    .front-end-img{
+        width: 400px;
+        height: 150px;
+    }
+    .botonred{
+    height: 50px;
+    width: 50px;
+    }
+
+}
+
+@media (min-width: 500px) and (max-width: 799px){
+    .grid_container{
+        display: grid;
+        grid-row-gap: 20px ;
+        grid-template-columns: auto ;
+        grid-row: auto;
+        grid-template-areas: "form1" 
+                             "form2"
+                             "form3" 
+                             "form4"
+                             "form5"
+                             "form6"
+                             "form7";
+    
+                            
+    }
+   
+    h1{ font-family: "Prociono";
+        font-size: 55px;
+        font-weight: bold;
+    
+    }
+    
+    h2{
+        text-align: center;
+        font-family: "Prociono";
+        font-size: 40px;
+        font-weight: bold;
+    }
+    
+    p{
+        text-align: center;
+        font-family: "PT Sans";
+        font-size: 25px;
+    }
+    .front-end-img{
+        width: 270px;
+        height: 100px;
+    }
+    .botonred {
+    height: 35px;
+    width: 35px;
+    }
+    
+}
+@media (min-width: 200px) and (max-width: 499px){
+    .fotopersonal{
+        width: 100px;
+        border-radius: 50%;
+        aspect-ratio: 1; 
+        object-fit: cover;
+       align-items: center;
+    }
+    .grid_container{
+        display: grid;
+        grid-row-gap: 20px ;
+        grid-template-columns: auto ;
+        grid-row: auto;
+        grid-template-areas: "form1" 
+                             "form2"
+                             "form3" 
+                             "form4"
+                             "form5"
+                             "form6"
+                             "form7";
+    
+                            
+    }
+
+    h1{ font-family: "Prociono";
+        font-size: 45px;
+        font-weight: bold;
+    
+    }
+    
+    h2{
+        text-align: center;
+        font-family: "Prociono";
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+    p{
+        text-align: center;
+        font-family: "PT Sans";
+        font-size: 20px;
+    }
+
+
+    .front-end-img{
+        width: 202spx;
+        height: 75px;
+    }
+
+    .botonred{
+        height: 25px;
+        width: 25px;
+        
+    }
+
+    
+}
+    
+}
